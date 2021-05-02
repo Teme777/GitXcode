@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 53;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -25,6 +25,7 @@
 /* Begin PBXFileReference section */
 		F2CF01EE263ECC33000CB23A /* GitXcode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GitXcode; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2CF01F1263ECC33000CB23A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		F2CF01F8263ECD07000CB23A /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +42,7 @@
 		F2CF01E5263ECC33000CB23A = {
 			isa = PBXGroup;
 			children = (
+				F2CF01F8263ECD07000CB23A /* .gitignore */,
 				F2CF01F0263ECC33000CB23A /* GitXcode */,
 				F2CF01EF263ECC33000CB23A /* Products */,
 			);
@@ -97,7 +99,7 @@
 				};
 			};
 			buildConfigurationList = F2CF01E9263ECC33000CB23A /* Build configuration list for PBXProject "GitXcode" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 11.4";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -247,6 +249,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U2ZVKL8S2D;
 				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -258,6 +261,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U2ZVKL8S2D;
 				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
